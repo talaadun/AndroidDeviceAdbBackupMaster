@@ -1,0 +1,13 @@
+{
+  "BackupTo": "D:\\BackupDir",
+  "BackupItems": [
+    {
+      "FullPath": "/sdcard/DCIM/Camera",
+      "IsDir": true
+    },
+    {
+      "FullPath": "/sdcard/DCIM/Screenshots",
+      "IsDir": true
+    }
+  ]
+}
