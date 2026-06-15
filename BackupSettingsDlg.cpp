@@ -20,7 +20,7 @@ IMPLEMENT_DYNAMIC(CBackupSettingsDlg, CDialogEx)
 CBackupSettingsDlg::CBackupSettingsDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_DIALOG_BACKUP_SETTINGS, pParent)
 {
-	m_strBackupTo = _T("H:\\adb_test");
+	m_strBackupTo = _T("D:\\BackupDir");
 
 	TCHAR szExePath[MAX_PATH];
 	GetModuleFileName(NULL, szExePath, MAX_PATH);
